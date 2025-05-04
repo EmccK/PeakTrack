@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Mountain Tracker",
+    "slug": "mountain-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/favicon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "output": "server",
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
